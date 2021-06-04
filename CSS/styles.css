@@ -1,3 +1,20 @@
-h1 {
-    color: aqua;
+body {
+    background-color: rgb(167, 184, 184);
+}
+
+.first {
+    color: rgb(56, 250, 0);
+    padding-top: 50px;
+}
+
+p {
+    color: rgb(171, 255, 70) ;
+}
+
+.second {
+    color:rgb(255, 255, 255); 
+}
+
+.project-tile {
+    color: black;
 }
