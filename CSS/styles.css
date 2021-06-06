@@ -26,6 +26,7 @@ p {
 
 #welcome-section {
     height: 100vh;
+    background-color: black;
 }
 
 #navbar {
