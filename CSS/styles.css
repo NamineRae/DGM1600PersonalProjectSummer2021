@@ -20,18 +20,21 @@ p {
 .project-tile {
     color: black;
     padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(133, 38, 130);
 }
 
 #welcome-section {
     height: 100vh;
 }
 
-.nav {
+#navbar {
     position: fixed;
     top: 0px;
+    margin-top: -10px;
 }
 
 @media (max-width: 400px) {
-    
+
 }
 /*purple color code: color: rgb(133, 38, 130) */
