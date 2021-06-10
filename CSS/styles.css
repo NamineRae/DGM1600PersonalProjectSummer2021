@@ -5,11 +5,15 @@ body {
 .first {
     color: rgb(56, 250, 0);
     padding-top: 50px;
+    text-align: center;
+    font-size: 500%;
 }
 
 p {
     color: rgb(171, 255, 70) ;
-    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 250%;
 }
 
 .second {
@@ -18,21 +22,34 @@ p {
 }
 
 .project-tile {
-    color: black;
+    color: rgb(133, 38, 130);
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(133, 38, 130);
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+    margin-right: -1px;
 }
 
 #welcome-section {
-    height: 100vh;
+    height: 25vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 #navbar {
+    display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0px;
-    margin-top: -10px;
+    left: 0;
+    width: 100%;
+    margin-top: -1px;
+    padding-bottom: 1%;
+    background-color: rgb(255, 255, 255);
+    font-size: 150%;
+    box-shadow: 0 3px 0 rgba(107, 107, 107, 0.5)
+    /*I refrenced the code in the FCC example for how to do this. It was very helpful!*/
 }
 
 @media (max-width: 400px) {
