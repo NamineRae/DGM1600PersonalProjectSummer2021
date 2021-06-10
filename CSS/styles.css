@@ -21,7 +21,7 @@ p {
     padding-top: 50px;
 }
 
-.project-tiles {
+.project-tile {
     color: rgb(133, 38, 130);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -57,7 +57,7 @@ p {
 }
 
 #welcome-section {
-    height: 25vh;
+    height: 100vh;
     background-color: black;
     display: flex;
     justify-content: center;
